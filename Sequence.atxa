@@ -1,0 +1,784 @@
+<,mahmoudsaleh272@gmail.com> <http://www.architexa.com/rdf/core#creator> "true" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> a atxa-core:chronoFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx295 .
+
+_:node18b6mf1qgx295 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Mainapp> ;
+	atxa-jdt:index "0" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node18b6mf1qgx334 .
+
+_:node18b6mf1qgx334 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Mainapp.main(String[],)> ;
+	atxa-jdt:index "0" ;
+	atxa-core:contains _:node18b6mf1qgx335 .
+
+_:node18b6mf1qgx335 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Driver.connect(String,Properties,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#JDBC$Driver.connect(String,Properties,)> atxa-core:link _:node18b6mf1qgx336 .
+
+_:node18b6mf1qgx337 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx335 ;
+	rdf:object _:node18b6mf1qgx336 ;
+	atxa-core:name "connect(URL, null)" .
+
+_:node18b6mf1qgx334 atxa-core:contains _:node18b6mf1qgx338 .
+
+_:node18b6mf1qgx338 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Connection.createStatement()> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#JDBC$Connection.createStatement()> atxa-core:link _:node18b6mf1qgx339 .
+
+_:node18b6mf1qgx340 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx338 ;
+	rdf:object _:node18b6mf1qgx339 ;
+	atxa-core:name "createStatement()" .
+
+_:node18b6mf1qgx334 atxa-core:contains _:node18b6mf1qgx341 .
+
+_:node18b6mf1qgx341 a atxa-core:node ;
+	atxa-core:model _:node18b6mf1qgx319 ;
+	atxa-jdt:index "2" .
+
+_:node18b6mf1qgx319 a atxa-jdt:method ;
+	atxa-core:instanceName "" ;
+	atxa-core:userCreated "true" .
+
+_:node18b6mf1qgx342 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx341 ;
+	rdf:object _:node18b6mf1qgx343 ;
+	atxa-core:name "execute" .
+
+_:node18b6mf1qgx334 atxa-core:contains _:node18b6mf1qgx344 .
+
+_:node18b6mf1qgx344 a atxa-core:node ;
+	atxa-core:model _:node18b6mf1qgx322 ;
+	atxa-jdt:index "3" .
+
+_:node18b6mf1qgx322 a atxa-jdt:method ;
+	atxa-core:instanceName "" ;
+	atxa-core:userCreated "true" .
+
+_:node18b6mf1qgx345 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx344 ;
+	rdf:object _:node18b6mf1qgx346 ;
+	atxa-core:name "executeQuery" .
+
+_:node18b6mf1qgx334 atxa-core:contains _:node18b6mf1qgx347 .
+
+_:node18b6mf1qgx347 a atxa-core:node ;
+	atxa-core:model _:node18b6mf1qgx325 ;
+	atxa-jdt:index "4" .
+
+_:node18b6mf1qgx325 a atxa-jdt:method ;
+	atxa-core:instanceName "" ;
+	atxa-core:userCreated "true" .
+
+_:node18b6mf1qgx348 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx347 ;
+	rdf:object _:node18b6mf1qgx349 ;
+	atxa-core:name "executeUpdate" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx296 .
+
+_:node18b6mf1qgx296 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Driver> ;
+	atxa-jdt:index "1" ;
+	atxa-core:instanceName "driver" ;
+	atxa-core:contains _:node18b6mf1qgx336 .
+
+_:node18b6mf1qgx336 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Driver.connect(String,Properties,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx350 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx336 ;
+	rdf:object _:node18b6mf1qgx335 ;
+	atxa-core:name "Connection" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx297 .
+
+_:node18b6mf1qgx297 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Connection> ;
+	atxa-jdt:index "2" ;
+	atxa-core:instanceName "conn" ;
+	atxa-core:contains _:node18b6mf1qgx339 .
+
+_:node18b6mf1qgx339 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Connection.createStatement()> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx351 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx339 ;
+	rdf:object _:node18b6mf1qgx338 ;
+	atxa-core:name "Statement" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx352 .
+
+_:node18b6mf1qgx352 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Statement> ;
+	atxa-jdt:index "3" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node18b6mf1qgx343 .
+
+_:node18b6mf1qgx343 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Statement.execute(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx353 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx343 ;
+	rdf:object _:node18b6mf1qgx341 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx343 atxa-core:contains _:node18b6mf1qgx354 .
+
+_:node18b6mf1qgx354 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> atxa-core:link _:node18b6mf1qgx355 .
+
+_:node18b6mf1qgx356 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx354 ;
+	rdf:object _:node18b6mf1qgx355 ;
+	atxa-core:name "parseStatment(sql)" .
+
+_:node18b6mf1qgx352 atxa-core:contains _:node18b6mf1qgx346 .
+
+_:node18b6mf1qgx346 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Statement.executeQuery(String,)> ;
+	atxa-jdt:index "1" .
+
+_:node18b6mf1qgx357 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx346 ;
+	rdf:object _:node18b6mf1qgx344 ;
+	atxa-core:name "Resultset" .
+
+_:node18b6mf1qgx346 atxa-core:contains _:node18b6mf1qgx358 .
+
+_:node18b6mf1qgx358 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> atxa-core:link _:node18b6mf1qgx359 .
+
+_:node18b6mf1qgx360 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx358 ;
+	rdf:object _:node18b6mf1qgx359 ;
+	atxa-core:name "parseStatment(sql)" .
+
+_:node18b6mf1qgx352 atxa-core:contains _:node18b6mf1qgx349 .
+
+_:node18b6mf1qgx349 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#JDBC$Statement.executeUpdate(String,)> ;
+	atxa-jdt:index "2" .
+
+_:node18b6mf1qgx361 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx349 ;
+	rdf:object _:node18b6mf1qgx347 ;
+	atxa-core:name "int" .
+
+_:node18b6mf1qgx349 atxa-core:contains _:node18b6mf1qgx362 .
+
+_:node18b6mf1qgx362 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> atxa-core:link _:node18b6mf1qgx363 .
+
+_:node18b6mf1qgx364 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx362 ;
+	rdf:object _:node18b6mf1qgx363 ;
+	atxa-core:name "parseStatment(sql)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx326 .
+
+_:node18b6mf1qgx326 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser> ;
+	atxa-jdt:index "4" ;
+	atxa-core:instanceName "par" ;
+	atxa-core:contains _:node18b6mf1qgx355 .
+
+_:node18b6mf1qgx355 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx365 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx355 ;
+	rdf:object _:node18b6mf1qgx354 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx355 atxa-core:contains _:node18b6mf1qgx366 .
+
+_:node18b6mf1qgx366 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_dataBase(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_dataBase(String,)> atxa-core:link _:node18b6mf1qgx367 .
+
+_:node18b6mf1qgx368 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx366 ;
+	rdf:object _:node18b6mf1qgx367 ;
+	atxa-core:name "check_dataBase(temp)" .
+
+_:node18b6mf1qgx355 atxa-core:contains _:node18b6mf1qgx369 .
+
+_:node18b6mf1qgx369 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createDateBase(String,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createDateBase(String,)> atxa-core:link _:node18b6mf1qgx370 .
+
+_:node18b6mf1qgx371 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx369 ;
+	rdf:object _:node18b6mf1qgx370 ;
+	atxa-core:name "validate_createDateBase(dataBaseName)" .
+
+_:node18b6mf1qgx355 atxa-core:contains _:node18b6mf1qgx372 .
+
+_:node18b6mf1qgx372 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update(String,String,ArrayList,Field,)> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update(String,String,ArrayList,Field,)> atxa-core:link _:node18b6mf1qgx373 .
+
+_:node18b6mf1qgx374 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx372 ;
+	rdf:object _:node18b6mf1qgx373 ;
+	atxa-core:name "validate_update(dataBaseName, tableName, entries, entry)" .
+
+_:node18b6mf1qgx326 atxa-core:contains _:node18b6mf1qgx359 .
+
+_:node18b6mf1qgx359 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "1" .
+
+_:node18b6mf1qgx375 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx359 ;
+	rdf:object _:node18b6mf1qgx358 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx359 atxa-core:contains _:node18b6mf1qgx376 .
+
+_:node18b6mf1qgx376 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createTable(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx377 .
+
+_:node18b6mf1qgx378 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx376 ;
+	rdf:object _:node18b6mf1qgx377 ;
+	atxa-core:name "validate_createTable(dataBaseName, tableName, entries)" .
+
+_:node18b6mf1qgx359 atxa-core:contains _:node18b6mf1qgx379 .
+
+_:node18b6mf1qgx379 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select(String,String,Field,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select(String,String,Field,)> atxa-core:link _:node18b6mf1qgx380 .
+
+_:node18b6mf1qgx381 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx379 ;
+	rdf:object _:node18b6mf1qgx380 ;
+	atxa-core:name "validate_select(dataBaseName, tableName, entry)" .
+
+_:node18b6mf1qgx359 atxa-core:contains _:node18b6mf1qgx382 .
+
+_:node18b6mf1qgx382 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_delete(String,String,Field,)> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_delete(String,String,Field,)> atxa-core:link _:node18b6mf1qgx383 .
+
+_:node18b6mf1qgx384 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx382 ;
+	rdf:object _:node18b6mf1qgx383 ;
+	atxa-core:name "validate_delete(dataBaseName, tableName, entry)" .
+
+_:node18b6mf1qgx326 atxa-core:contains _:node18b6mf1qgx363 .
+
+_:node18b6mf1qgx363 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Parser.parseStatment(String,)> ;
+	atxa-jdt:index "2" .
+
+_:node18b6mf1qgx385 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx363 ;
+	rdf:object _:node18b6mf1qgx362 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx363 atxa-core:contains _:node18b6mf1qgx386 .
+
+_:node18b6mf1qgx386 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_selectAll(String,String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_selectAll(String,String,)> atxa-core:link _:node18b6mf1qgx387 .
+
+_:node18b6mf1qgx388 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx386 ;
+	rdf:object _:node18b6mf1qgx387 ;
+	atxa-core:name "validate_selectAll(dataBaseName, tableName)" .
+
+_:node18b6mf1qgx363 atxa-core:contains _:node18b6mf1qgx389 .
+
+_:node18b6mf1qgx389 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_insert(String,String,ArrayList,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_insert(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx390 .
+
+_:node18b6mf1qgx391 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx389 ;
+	rdf:object _:node18b6mf1qgx390 ;
+	atxa-core:name "validate_insert(dataBaseName, tableName, entries)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx327 .
+
+_:node18b6mf1qgx327 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator> ;
+	atxa-jdt:index "5" ;
+	atxa-core:instanceName "validate" ;
+	atxa-core:contains _:node18b6mf1qgx367 .
+
+_:node18b6mf1qgx367 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_dataBase(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx392 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx367 ;
+	rdf:object _:node18b6mf1qgx366 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx370 .
+
+_:node18b6mf1qgx370 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createDateBase(String,)> ;
+	atxa-jdt:index "1" .
+
+_:node18b6mf1qgx393 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx370 ;
+	rdf:object _:node18b6mf1qgx369 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx370 atxa-core:contains _:node18b6mf1qgx394 .
+
+_:node18b6mf1qgx394 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createDateBase(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createDateBase(String,)> atxa-core:link _:node18b6mf1qgx395 .
+
+_:node18b6mf1qgx396 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx394 ;
+	rdf:object _:node18b6mf1qgx395 ;
+	atxa-core:name "createDateBase(name)" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx373 .
+
+_:node18b6mf1qgx373 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update(String,String,ArrayList,Field,)> ;
+	atxa-jdt:index "2" .
+
+_:node18b6mf1qgx397 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx373 ;
+	rdf:object _:node18b6mf1qgx372 ;
+	atxa-core:name "int" .
+
+_:node18b6mf1qgx373 atxa-core:contains _:node18b6mf1qgx402 .
+
+_:node18b6mf1qgx402 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> atxa-core:link _:node18b6mf1qgx403 .
+
+_:node18b6mf1qgx404 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx402 ;
+	rdf:object _:node18b6mf1qgx403 ;
+	atxa-core:name "check_type(dataBaseName, tableName, getValue(), getName())" .
+
+_:node18b6mf1qgx402 atxa-core:contains _:node18b6mf1qgx403 .
+
+_:node18b6mf1qgx403 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx405 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx403 ;
+	rdf:object _:node18b6mf1qgx402 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx373 atxa-core:contains _:node18b6mf1qgx406 .
+
+_:node18b6mf1qgx406 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> ;
+	atxa-jdt:index "1" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> atxa-core:link _:node18b6mf1qgx407 .
+
+_:node18b6mf1qgx408 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx406 ;
+	rdf:object _:node18b6mf1qgx407 ;
+	atxa-core:name "check_type(dataBaseName, tableName, getValue(), getName())" .
+
+_:node18b6mf1qgx406 atxa-core:contains _:node18b6mf1qgx407 .
+
+_:node18b6mf1qgx407 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.check_type(String,String,String,String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx409 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx407 ;
+	rdf:object _:node18b6mf1qgx406 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx373 atxa-core:contains _:node18b6mf1qgx410 .
+
+_:node18b6mf1qgx410 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select_field(String,String,Field,)> ;
+	atxa-jdt:index "2" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select_field(String,String,Field,)> atxa-core:link _:node18b6mf1qgx411 .
+
+_:node18b6mf1qgx412 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx410 ;
+	rdf:object _:node18b6mf1qgx411 ;
+	atxa-core:name "validate_select_field(dataBaseName, tableName, entry)" .
+
+_:node18b6mf1qgx410 atxa-core:contains _:node18b6mf1qgx411 .
+
+_:node18b6mf1qgx411 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select_field(String,String,Field,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx413 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx411 ;
+	rdf:object _:node18b6mf1qgx410 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx373 atxa-core:contains _:node18b6mf1qgx414 .
+
+_:node18b6mf1qgx414 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update_field(String,String,ArrayList,)> ;
+	atxa-jdt:index "3" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update_field(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx415 .
+
+_:node18b6mf1qgx416 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx414 ;
+	rdf:object _:node18b6mf1qgx415 ;
+	atxa-core:name "validate_update_field(dataBaseName, tableName, entries)" .
+
+_:node18b6mf1qgx414 atxa-core:contains _:node18b6mf1qgx415 .
+
+_:node18b6mf1qgx415 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_update_field(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx417 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx415 ;
+	rdf:object _:node18b6mf1qgx414 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx373 atxa-core:contains _:node18b6mf1qgx418 .
+
+_:node18b6mf1qgx418 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_primary_key(String,String,ArrayList,)> ;
+	atxa-jdt:index "4" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_primary_key(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx419 .
+
+_:node18b6mf1qgx420 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx418 ;
+	rdf:object _:node18b6mf1qgx419 ;
+	atxa-core:name "validate_primary_key(dataBaseName, tableName, entries)" .
+
+_:node18b6mf1qgx418 atxa-core:contains _:node18b6mf1qgx419 .
+
+_:node18b6mf1qgx419 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_primary_key(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx421 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx419 ;
+	rdf:object _:node18b6mf1qgx418 ;
+	atxa-core:name "boolean" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx377 .
+
+_:node18b6mf1qgx377 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "3" .
+
+_:node18b6mf1qgx422 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx377 ;
+	rdf:object _:node18b6mf1qgx376 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx377 atxa-core:contains _:node18b6mf1qgx423 .
+
+_:node18b6mf1qgx423 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createTable(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx424 .
+
+_:node18b6mf1qgx425 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx423 ;
+	rdf:object _:node18b6mf1qgx424 ;
+	atxa-core:name "createTable(dataBaseName, tableName, entries)" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx380 .
+
+_:node18b6mf1qgx380 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_select(String,String,Field,)> ;
+	atxa-jdt:index "4" .
+
+_:node18b6mf1qgx426 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx380 ;
+	rdf:object _:node18b6mf1qgx379 ;
+	atxa-core:name "Tables" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx383 .
+
+_:node18b6mf1qgx383 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_delete(String,String,Field,)> ;
+	atxa-jdt:index "5" .
+
+_:node18b6mf1qgx427 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx383 ;
+	rdf:object _:node18b6mf1qgx382 ;
+	atxa-core:name "int" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx387 .
+
+_:node18b6mf1qgx387 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_selectAll(String,String,)> ;
+	atxa-jdt:index "6" .
+
+_:node18b6mf1qgx428 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx387 ;
+	rdf:object _:node18b6mf1qgx386 ;
+	atxa-core:name "Tables" .
+
+_:node18b6mf1qgx327 atxa-core:contains _:node18b6mf1qgx390 .
+
+_:node18b6mf1qgx390 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$Validator.validate_insert(String,String,ArrayList,)> ;
+	atxa-jdt:index "7" .
+
+_:node18b6mf1qgx429 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx390 ;
+	rdf:object _:node18b6mf1qgx389 ;
+	atxa-core:name "int" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx430 .
+
+_:node18b6mf1qgx430 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMSImplementer> ;
+	atxa-jdt:index "6" ;
+	atxa-core:instanceName "" ;
+	atxa-core:contains _:node18b6mf1qgx431 .
+
+_:node18b6mf1qgx431 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMSImplementer.createDateBase(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx432 a atxa-core:link ;
+	atxa-core:model atxa-jdt:overrides ;
+	rdf:subject _:node18b6mf1qgx431 ;
+	rdf:object _:node18b6mf1qgx395 ;
+	atxa-core:name "overrides" .
+
+_:node18b6mf1qgx431 atxa-core:contains _:node18b6mf1qgx433 .
+
+_:node18b6mf1qgx433 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.addDataBase(String,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.addDataBase(String,)> atxa-core:link _:node18b6mf1qgx434 .
+
+_:node18b6mf1qgx435 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx433 ;
+	rdf:object _:node18b6mf1qgx434 ;
+	atxa-core:name "addDataBase(name)" .
+
+_:node18b6mf1qgx430 atxa-core:contains _:node18b6mf1qgx436 .
+
+_:node18b6mf1qgx436 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMSImplementer.createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "1" .
+
+_:node18b6mf1qgx437 a atxa-core:link ;
+	atxa-core:model atxa-jdt:overrides ;
+	rdf:subject _:node18b6mf1qgx436 ;
+	rdf:object _:node18b6mf1qgx424 ;
+	atxa-core:name "overrides" .
+
+_:node18b6mf1qgx436 atxa-core:contains _:node18b6mf1qgx438 .
+
+_:node18b6mf1qgx438 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$XMLParser.createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$XMLParser.createTable(String,String,ArrayList,)> atxa-core:link _:node18b6mf1qgx439 .
+
+_:node18b6mf1qgx440 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx438 ;
+	rdf:object _:node18b6mf1qgx439 ;
+	atxa-core:name "createTable(dataBaseName, tableName, array)" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx331 .
+
+_:node18b6mf1qgx331 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS> ;
+	atxa-jdt:index "7" ;
+	atxa-core:instanceName "ob" ;
+	atxa-core:contains _:node18b6mf1qgx395 .
+
+_:node18b6mf1qgx395 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createDateBase(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx441 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx395 ;
+	rdf:object _:node18b6mf1qgx394 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx331 atxa-core:contains _:node18b6mf1qgx424 .
+
+_:node18b6mf1qgx424 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$DBMS.createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "1" .
+
+_:node18b6mf1qgx442 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx424 ;
+	rdf:object _:node18b6mf1qgx423 ;
+	atxa-core:name "void" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx332 .
+
+_:node18b6mf1qgx332 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser> ;
+	atxa-jdt:index "8" ;
+	atxa-core:instanceName "obj" ;
+	atxa-core:contains _:node18b6mf1qgx434 .
+
+_:node18b6mf1qgx434 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.addDataBase(String,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx443 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx434 ;
+	rdf:object _:node18b6mf1qgx433 ;
+	atxa-core:name "void" .
+
+_:node18b6mf1qgx434 atxa-core:contains _:node18b6mf1qgx444 .
+
+_:node18b6mf1qgx444 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.loadRoot()> ;
+	atxa-jdt:index "0" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.loadRoot()> atxa-core:link _:node18b6mf1qgx445 .
+
+_:node18b6mf1qgx446 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node18b6mf1qgx444 ;
+	rdf:object _:node18b6mf1qgx445 ;
+	atxa-core:name "loadRoot()" .
+
+_:node18b6mf1qgx444 atxa-core:contains _:node18b6mf1qgx445 .
+
+_:node18b6mf1qgx445 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$SchemaParser.loadRoot()> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx447 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx445 ;
+	rdf:object _:node18b6mf1qgx444 ;
+	atxa-core:name "ArrayList<String>" .
+
+<http://www.architexa.com/rdf/rse-eclipse#Sequence.atxa> atxa-core:contains _:node18b6mf1qgx333 .
+
+_:node18b6mf1qgx333 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$XMLParser> ;
+	atxa-jdt:index "9" ;
+	atxa-core:instanceName "obj" ;
+	atxa-core:contains _:node18b6mf1qgx439 .
+
+_:node18b6mf1qgx439 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#DBMS$XMLParser.createTable(String,String,ArrayList,)> ;
+	atxa-jdt:index "0" .
+
+_:node18b6mf1qgx448 a atxa-core:link ;
+	atxa-core:model atxa-jdt:returns ;
+	rdf:subject _:node18b6mf1qgx439 ;
+	rdf:object _:node18b6mf1qgx438 ;
+	atxa-core:name "void" .
+
